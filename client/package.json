@@ -1,0 +1,25 @@
+{
+  "name": "@prooffolio/client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react": "*",
+    "tailwindcss": "*",
+    "typescript": "*",
+    "vite": "*"
+  }
+}

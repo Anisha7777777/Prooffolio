@@ -1,0 +1,29 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local environment files (keep only safe templates)
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+work/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.code-workspace
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
